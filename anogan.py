@@ -3,7 +3,7 @@ from keras.models import Sequential, Model
 from keras.layers import Input, Reshape, Dense, Dropout, MaxPooling2D, Conv2D, Flatten
 from keras.layers import Conv2DTranspose, LeakyReLU
 from keras.layers.core import Activation
-from keras.layers.normalization import BatchNormalization
+from tensorflow.keras.layers import BatchNormalization
 from keras.optimizers import Adam, RMSprop
 from keras import backend as K
 from keras import initializers
