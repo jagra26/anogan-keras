@@ -4,7 +4,7 @@ from keras.layers import Input, Reshape, Dense, Dropout, MaxPooling2D, Conv2D, F
 from keras.layers import Conv2DTranspose, LeakyReLU
 from keras.layers.core import Activation
 from tensorflow.keras.layers import BatchNormalization
-from keras.optimizers import Adam, RMSprop
+from tensorflow.keras.optimizers import Adam, RMSprop
 from keras import backend as K
 from keras import initializers
 import tensorflow as tf
